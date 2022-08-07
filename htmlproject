@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>products</title>
+        <link rel="stylesheet" href="prod.css">
+    </head>
+    <body class="image">
+            <div class="img-overlay"></div>
+        <center><h1 id="ab">Product details</h1></center>
+        <h2 id="aa">Computer and its types:-</h2><br>
+        <h3 class="abs">Personal computer:</h3>
+        <img src="personal_computer.jpg" class="img1" alt="photo is not available now">
+        <table border="1">
+            <tr>
+                <td>
+        <p>A PC can be defined as a small, relatively inexpensive computer designed for an individual user. PCs are based on the microprocessor technology that enables manufacturers to put an entire CPU on one chip. <br>Businesses use personal computers for wo…
+{
+    background-image: url(bg_img.jpg);
+}
+.img-overlay
+{
+    height:100%;
+    width: 100%;
+    background:rgb(176, 211, 136);
+    box-shadow: -12px -12px 2px rgb(71, 66, 66);
+    opacity:50%;
+}
+*
+{
+    position: relative;
+}
+.img1
+{
+    float: left;
+}
+.img2
+{
+    float: right;
+}
+.img3
+{
+    float: left;
+}
+#aa
+{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: initial;
+    font-weight: 900;
+}
+*
+{
+    font-style: italic;
+    font-weight: 400;
+    position: relative;
+    border-radius: 15px;
+  
+}
+#ab
+{
+    font-style:inherit;
+    font-weight: 900;
+    text-shadow: -6px 6px 2px rgb(196, 89, 89);
+}
+.abs
+{
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+ 
